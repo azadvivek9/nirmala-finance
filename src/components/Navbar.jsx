@@ -17,7 +17,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2 font-bold text-xl tracking-wide min-w-max pr-4">
             <Banknote className="h-7 w-7 text-purple-200" />
-            <span>FinanceManager</span>
+            <span>Nirmala Pvt Ltd.</span>
           </div>
           <div className="hidden md:flex space-x-1">
             {navItems.map((item) => {
